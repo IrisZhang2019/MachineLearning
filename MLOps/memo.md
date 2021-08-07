@@ -58,3 +58,28 @@ Try to overfit a small training dataset before training a large one
 - frequency of the category
 - how easy to improve it
 - importance to improve it
+
+###### Data augmentation
+create realistic examples that (i) algorithm does poorly on but (ii) humans (or other baseline) do well on.  
+Checklist:
+- does it sound realistic
+- is the x -> y mapping clear
+- is the algorithm currently doing poorly on it
+
+###### Experiment tracking
+Parameters to track
+- algorithm/code vers.
+- dataset
+- hyperparameters
+- results
+
+Tools for tracking
+- text files
+- spreadsheet
+- tracking system
+
+Desirable features
+- info needed to replicate results
+- results with summary metrics/analysis
+- perhaps also: resource monitoring, visualization, model error analysis
+
