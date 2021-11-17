@@ -14,3 +14,8 @@ l2: 减少但是不致于到0，导数计算方便，对outlier不够鲁棒
 
 ##### Confusion Matrix
 TBA
+
+##### T-test, Z-test
+1. 是否总体方差已知？ Y: Z-test  N: 2
+2. 是否是大样本？ Y: Z-test  N: T-test
+
