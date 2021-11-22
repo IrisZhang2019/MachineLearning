@@ -12,6 +12,14 @@ l2: 减少但是不致于到0，导数计算方便，对outlier不够鲁棒
 * ID3, C4.5, CART?
 * adaboost? gbdt? xgb?
 
+#####
+
+loss function: cross entropy
+```math
+H = - sigma(p(x) * log(q(x)))
+```
+p(x) fact, q(x) prediction
+
 ##### Confusion Matrix
 TBA
 
